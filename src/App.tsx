@@ -5,11 +5,14 @@ import "./style.css";
 // Cannot find module '@react-hookz/web/esm/useCookieValue' or its corresponding type declarations.(2307)
 // import { useCookieValue } from '@react-hookz/web/esm/useCookieValue';
 // Cannot find module '@react-hookz/web/useCookieValue/index.js' or its corresponding type declarations.(2307)
-import { useCookieValue } from "@react-hookz/web/useCookieValue/index.js";
+// import { useCookieValue } from "@react-hookz/web/useCookieValue/index.js";
+import { useCookieValue } from "@react-hookz/web/useCookieValue";
 
 export const App: FC<{ name: string }> = ({ name }) => {
   const [cookie] = useCookieValue("foo");
-  console.log(cookie);
+  console.log("🚀 -------------------🚀");
+  console.log("🚀 ~ cookie:", cookie);
+  console.log("🚀 -------------------🚀");
 
   return (
     <div>
