@@ -1,0 +1,22 @@
+{
+  "name": "stackblitz-starters-x6httv",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@react-hookz/web": "^24.0.4",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.18",
+    "js-cookie": "^3.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
